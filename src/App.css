@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+
+* {
+  font-family: "Signika Negative", sans-serif;
+}
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-con {
+  padding: 26px 170px;
+  border-bottom: 0.5px solid #b8b6b6;
+}
+
+.inner-nav {
+  width: 310px;
+}
+.inner-nav a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #292929;
+}
+.homepage-con {
+  padding: 65px 170px;
+}
+.home-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 150px;
+}
+.home-text {
+  width: 535px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.home-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61.6px;
+  color: #292929;
+}
+.home-text h1 span {
+  color: #974fd0;
+}
+.home-text p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.57px;
+  color: #737171;
+}
+.home-text a {
+  width: 201px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #974fd0;
+  padding: 10px 25px;
+  color: #faf9fb;
+  border-radius: 8px;
+}
+.alltasks-con {
+  padding: 53px 170px;
+}
+.my-tasks h2 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61.6px;
+  color: #292929;
+}
+
+.my-tasks a {
+  width: 177px;
+  text-decoration: none;
+}
+.my-tasks a p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #974fd0;
+}
+
+.tasks-content {
+  margin-top: 53px;
+  border: 0.5px solid #b8b6b6;
+  border-radius: 10px;
+}
+
+.inner-tasks {
+  margin: 20px 12px;
+}
+.inner-tasks p {
+  font-size: 24px;
+  font-weight: 500px;
+  color: #f38383;
+}
+.tasks-but a {
+  background-color: #974fd0;
+  gap: 10px;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.tasks-but a p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #faf9fb;
+}
+.tasks-but button {
+  background-color: #faf9fb;
+  border: 1px solid #974fd0;
+  padding: 10px 25px;
+  border-radius: 8px;
+  gap: 10px;
+}
+.tasks-but button p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #974fd0;
+}
+
+.tasks-content hr {
+  margin: 0 12px;
+}
+.task-details {
+  margin: 13px 12px;
+}
+.task-details h3 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #292929;
+}
+.task-details p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.57px;
+  color: #737171;
+}
+
+.newtask-con {
+  padding: 53px 170px;
+}
+
+.back-to1 h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.newtask-form {
+  margin: 84px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 68px;
+}
+
+.title-new label,
+.describe-new label,
+.tag-new h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #9c9c9c;
+  left: 50px;
+  top: -22px;
+  background-color: #ffffff;
+}
+
+.title-new input,
+.describe-new textarea,
+.tag-new {
+  border: 1px solid #b8b6b6;
+}
+
+.title-new input::placeholder,
+.describe-new textarea::placeholder {
+  font-size: 22px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.tag-new div p {
+  background: #9c9c9c;
+  color: #cccccc;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.but-new {
+  padding: 10px 25px;
+  border-radius: 8px;
+  background-color: #974fd0;
+  border: none;
+  color: #faf9fb;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.bk-top {
+  font-size: 26px;
+  font-weight: 500;
+  color: #974fd0;
+}
+
+.error {
+  margin-top: 250px;
+}
+.error h2 {
+  font-size: 80px;
+  font-weight: 600;
+}
+.error h4 {
+  font-size: 40px;
+}
+.error p {
+  font-size: 20px;
+}
+.error button {
+  background-color: #974fd0;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
