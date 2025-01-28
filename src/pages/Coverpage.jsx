@@ -64,7 +64,7 @@ const Coverpage = () => {
               // If transition, set opacity to 0, else 1
               opacity: transitioning ? 0 : 1,
 
-              //Appyying a smooth transition for the opacity change
+              //Applying a smooth transition for the opacity change
               transition: "opacity 2s ease-in-out",
             }}
           />
